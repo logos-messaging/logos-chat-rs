@@ -1,7 +1,8 @@
 use libchat::context::{Context, ConversationIdOwned, Introduction};
 use libchat::errors::ChatError;
 use libchat::types::AddressedEnvelope;
-struct Client {
+
+pub struct Client {
     ctx: Context,
 }
 
