@@ -1,0 +1,5 @@
+[workspace]
+members = ["chat"]
+
+# optional but nice
+resolver = "2"
